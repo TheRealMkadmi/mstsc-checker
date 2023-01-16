@@ -1,0 +1,36 @@
+{
+  "name": "@therealmkadmi/mstsc-checker",
+  "version": "0.1.0",
+  "description": "Checks for valid Windows Terminal Services credentials",
+  "main": "index.js",
+  "type": "module",
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "scripts": {
+    "build": "cargo-cp-artifact -nc index.node -- cargo build --message-format=json-render-diagnostics",
+    "build-debug": "npm run build --",
+    "build-release": "npm run build -- --release",
+    "install": "npm run build-release",
+    "test": "cargo test",
+    "test-file": "node test.js"
+  },
+  "author": "TheRealMkadmi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealMkadmi/ts-login-checker-rs-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRealMkadmi/ts-login-checker-rs-js/issues"
+  },
+  "homepage": "https://github.com/TheRealMkadmi/ts-login-checker-rs-js#readme",
+  "dependencies": {
+    "cargo-cp-artifact": "^0.1.7"
+  }
+}
