@@ -1,12 +1,12 @@
-# ts-checker-rs-js
+# mstsc-checker
 
-**ts-checker-rs-js:** Checks for valid Windows Terminal Services credentials
+**mstsc-checker:** Checks for valid Windows Terminal Services credentials
 
 This project was bootstrapped by [create-neon](https://www.npmjs.com/package/create-neon).
 
-## Installing ts-checker-rs-js
+## Installing mstsc-checker
 
-Installing ts-checker-rs-js requires a [supported version of Node and Rust](https://github.com/neon-bindings/neon#platform-support).
+Installing mstsc-checker requires a [supported version of Node and Rust](https://github.com/neon-bindings/neon#platform-support).
 
 You can install the project with npm. In the project directory, run:
 
@@ -16,7 +16,7 @@ $ npm install
 
 This fully installs the project, including installing any dependencies and running the build.
 
-## Building ts-checker-rs-js
+## Building mstsc-checker
 
 If you have already installed the project and only want to run the build, run:
 
@@ -26,9 +26,9 @@ $ npm run build
 
 This command uses the [cargo-cp-artifact](https://github.com/neon-bindings/cargo-cp-artifact) utility to run the Rust build and copy the built library into `./index.node`.
 
-## Exploring ts-checker-rs-js
+## Exploring mstsc-checker
 
-After building ts-checker-rs-js, you can explore its exports at the Node REPL:
+After building mstsc-checker, you can explore its exports at the Node REPL:
 
 ```sh
 $ npm install
@@ -72,7 +72,7 @@ Runs the unit tests by calling `cargo test`. You can learn more about [adding te
 The directory structure of this project is:
 
 ```
-ts-checker-rs-js/
+mstsc-checker/
 ├── Cargo.toml
 ├── README.md
 ├── index.node

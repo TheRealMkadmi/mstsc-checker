@@ -1,5 +1,5 @@
 [package]
-name = "ts-checker-rs-js"
+name = "mstsc-checker"
 version = "0.1.0"
 description = "Checks for valid Windows Terminal Services credentials"
 authors = ["TheRealMkadmi"]
