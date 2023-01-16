@@ -1,6 +1,6 @@
 {
   "name": "mstsc-checker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Checks for valid Windows Terminal Services credentials",
   "main": "index.js",
   "type": "module",
