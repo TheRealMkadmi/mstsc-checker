@@ -18,7 +18,8 @@
     "build-release": "npm run build -- --release",
     "install": "npm run build-release",
     "test": "cargo test",
-    "test-file": "node test.js"
+    "test-file": "node test.js",
+    "postinstall": "npm run build-release"
   },
   "author": "TheRealMkadmi",
   "license": "ISC",
